@@ -1,0 +1,16 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore provider credentials file
+terraform.tfvars
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
