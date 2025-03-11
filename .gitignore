@@ -2,9 +2,11 @@
 *.tfstate
 *.tfstate.backup
 *.tfplan
+.terraform.lock.hcl
 
 # Ignore .terraform directory
 .terraform/
+
 
 # Ignore provider credentials file
 terraform.tfvars
